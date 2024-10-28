@@ -1,0 +1,89 @@
+/* p{
+   background-color: lightsalmon;
+   padding: 15px;
+   margin: 15px;
+   width: 50%;
+   float: right;
+   text-align: justify;
+} */
+/* .opposite{
+    display:inline-block;
+    background-color: darkslategrey;
+    color: goldenrod;
+    margin: 5px auto;
+    height: 20px;
+    padding: 2rem;
+} */
+
+/* Display */
+
+/* ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: darksalmon;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+} */
+
+/* float */
+/* .block{
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 1rem;
+} */
+
+/* .left{
+    float: left;
+    margin-right: 1rem;
+} */
+
+/* .right{
+    float: right;
+    margin-left: 1rem;
+}
+.clear{
+    clear: both;
+} */
+
+.One{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    /* column-count: 2; */
+    columns: 4 250px;
+    column-rule: 2px solid black;
+    column-gap: 3rem;
+    text-align: justify;
+}
+.One p{
+    margin-top: 0;
+}
+.quote{
+    font-size: 3rem;
+    text-align: center;
+    color:chocolate;
+    column-span: all;
+}
+.nowrap{
+    white-space: nowrap;
+}
+
+/* .One,.two{
+    background-color: palevioletred;
+    padding: 1rem;
+    overflow: auto;  this makes the content fits in the block
+}
+
+.three{
+    background-color: palevioletred;
+    padding: 1rem;
+    display: flow-root;
+} */

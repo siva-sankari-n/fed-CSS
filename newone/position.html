@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer_container{
+            width: 600px;
+            height:500px;
+            border:2px solid black;
+            margin:150px auto;
+            position:relative;
+        }
+        .inner_container{
+            width:300px;
+            height:250px;
+            border:2px dashed black;
+            padding:40px;
+            margin:100px;
+        }
+        .box{
+            width:70px;
+            height:70px;
+            background-color: blueviolet;
+        }
+        .absolute{
+            background-color: chocolate;
+            position:absolute;
+            top:30px;
+            left:30px
+        }
+        .relative{
+            background-color: crimson;
+            position:relative;
+            right:30px;
+            bottom:30px;
+        }
+        .fixed{
+            background-color: cornflowerblue;
+            position:fixed;
+            top:170px;
+            right:500px;
+        }
+        .sticky{
+            top:60px;
+            right:50px;
+            position:static;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer_container">
+        <div class="inner_container">
+            <div class="box absolute"></div>
+            <div class="box relative"></div>
+            <div class="box fixed"></div>
+            <div class="box sticky"></div>
+        </div>
+    </div>
+</body>
+</html>

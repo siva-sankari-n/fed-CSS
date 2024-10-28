@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       .float-left {
+            float: left;
+            width: 150px;
+            height: 100px;
+            padding: 30px;
+            background-color: pink;
+            margin-right: 10px;
+        }
+
+        .content {
+            background-color: lightgray;
+            height: 100px;
+            padding: 30px;
+            display:block;
+        }
+
+        .clearfix{
+            width: 60%;
+            content: "";
+            display:flex;
+            clear: both;
+            align-items: center;
+        }
+    </style>
+    <title>Float </title>
+</head>
+<body>
+
+    <div class="clearfix">
+        <div class="float-left">Floating Box</div>
+        <div class="content">
+            This is a block of text that will wrap around the floating element.
+        </div>
+    </div>
+
+</body>
+</html>

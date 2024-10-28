@@ -1,0 +1,24 @@
+
+
+h1,main{
+    border: 5px dotted blueviolet;
+    /*width: 30%;*/
+    /* border:10px double blue; */
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1.5em;
+    /* outline: 5px ridge purple;
+    outline-offset: 5px; */
+}
+
+.circle{
+    background-color: olive;
+    width:20px;
+    height : 20px;
+    border:2px solid black;
+    margin : 2rem auto;
+    border-radius:10px;
+}

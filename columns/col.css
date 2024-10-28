@@ -1,0 +1,29 @@
+*{
+    padding :10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.one{
+    width: 5rem;
+    height: 5rem;
+    background-color: olive;
+    padding: 1rem;
+    margin: 2rem;
+    border:3px solid black;
+    border-radius: 60%;
+}
+.cols{
+    column-count: 4;
+    column-rule: 2px solid black;
+    text-align: justify;
+    column-gap: 3rem;
+}
+
+.quote{
+    text-align: center;
+    color: chocolate;
+    column-span: all;
+}
+.nowrap{
+    white-space:nowrap;
+}
